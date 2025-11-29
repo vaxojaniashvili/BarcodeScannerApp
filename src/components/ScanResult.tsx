@@ -42,7 +42,7 @@ const ScanResult = ({data}: ScanResultProps): React.JSX.Element => {
     <View style={styles.container}>
       <View style={styles.header}>
         <Text style={styles.headerIcon}>✓</Text>
-        <Text style={styles.headerText}>ბოლო წაკითხული კოდი</Text>
+        <Text style={styles.headerText}>ბოლოს წაკითხული კოდი</Text>
       </View>
 
       <View style={styles.typeContainer}>

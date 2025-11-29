@@ -116,12 +116,6 @@ const Scanner = ({onCodeScanned, onClose}: ScannerProps): React.JSX.Element => {
           <TouchableOpacity style={styles.closeButton} onPress={onClose}>
             <Text style={styles.closeButtonText}>✕ დახურვა</Text>
           </TouchableOpacity>
-
-          <Text style={styles.instructionText}>
-            {isProcessing
-              ? '✓ კოდი წაიკითხა!'
-              : 'მიმართეთ კამერა QR ან ბარკოდზე'}
-          </Text>
         </View>
       </View>
     </View>
