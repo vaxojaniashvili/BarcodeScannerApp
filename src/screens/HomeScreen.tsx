@@ -56,8 +56,7 @@ const HomeScreen = (): React.JSX.Element => {
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <View style={styles.header}>
-        <Text style={styles.title}>📱 ბარკოდ სკანერი</Text>
-        <Text style={styles.subtitle}>QR და ბარკოდების სკანირება</Text>
+        <Text style={styles.title}>QR და ბარკოდ სკანერი</Text>
       </View>
 
       {scannedData && <ScanResult data={scannedData} />}
@@ -100,10 +99,6 @@ const HomeScreen = (): React.JSX.Element => {
           </View>
         </View>
       </View>
-
-      <View style={styles.footer}>
-        <Text style={styles.footerText}>💡 თავსებადია iOS და Android-თან</Text>
-      </View>
     </ScrollView>
   );
 };
@@ -120,7 +115,7 @@ const styles = StyleSheet.create({
     marginTop: 20,
   },
   title: {
-    fontSize: 32,
+    fontSize: 22,
     fontWeight: 'bold',
     color: '#1a1a1a',
     marginBottom: 8,
